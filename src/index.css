@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: '';
+  font-family: "Barlow", sans-serif;
+}
+
+body{
+  background-color: #D1D1D1;
+}
