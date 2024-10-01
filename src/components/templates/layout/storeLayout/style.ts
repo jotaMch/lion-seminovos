@@ -16,8 +16,8 @@ export const ConteinerLayoutStore = styled.div`
         font-size: 36px;
         width: 1200px;
         @media screen and (max-width: 768px) {
-            width: 94%;
-            margin: 20px 0;
+            width: 100%;
+            text-align: center;
         }
         @media screen and (min-width: 768px) and (max-width: 1024px) {
             width: 96%;
@@ -97,6 +97,7 @@ export const CardInformation = styled.div`
         color: #F0BE0C;
         font-weight: lighter;
         font-size: 32px;
+        text-align: start;
         
         @media screen and (min-width: 768px) and (max-width: 1024px) {
             margin: 0;

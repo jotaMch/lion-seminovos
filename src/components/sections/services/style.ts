@@ -66,8 +66,8 @@ export const Items = styled.li`
     gap: 20px;
     
     @media screen and (max-width: 768px) {
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 140px;
+        max-height: 140px;
         width: 100%;
         height: 100%;
     }
@@ -98,6 +98,9 @@ export const AboutInformation = styled.div`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+        height: 250px;
+    }
     p{
         font-size: 24px;
         text-align: center;

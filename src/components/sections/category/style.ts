@@ -10,6 +10,7 @@ export const ContainerProduct = styled.div`
     justify-content: center;
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        
     }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         flex-direction: column;
@@ -34,6 +35,7 @@ export const ProductCategory = styled.div`
     @media screen and (max-width: 768px) {
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     h2{
         
@@ -86,7 +88,7 @@ export const Card = styled.div`
     position: relative;
     z-index: 1;
     @media screen and (max-width: 768px) {
-        width: 80%;
+        width: 60%;
     }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         margin: 0 auto;

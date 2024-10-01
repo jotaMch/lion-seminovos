@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# Lions Seminovos - Desafio Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Passos para executar, clone o repositório:
 
-Currently, two official plugins are available:
+- git clone https://github.com/jotaMch/lion-seminovos.git -l 'nome-do-seu-repositório'
+> Acesse o diretório do projeto:
+- cd 'nome-do-seu-repositório'
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Instale as dependências:
+- npm install
+> Rode o projeto localmente:
+- npm run dev
+> Acesse no navegador:
+- http://localhost:3000
 
-## Expanding the ESLint configuration
+### Descrição do Projeto
+Desafio de criar uma página web baseada em uma imagem fornecida pela empresa. A página foi projetada para ser responsiva e conter elementos como barra de navegação e campo de busca.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Funcionalidades Implementadas
+Header com barra de navegação: Inclui scroll suave para as seções principais (Home, Categorias, Serviços).
 
-- Configure the top-level `parserOptions` property like this:
+### Campo de busca
+Implementado na barra de navegação para buscar palavras-chave em uma lista de lojas.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Botão de navegação externa 
+Um botão na página que direciona o usuário para uma página externa.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Responsividade
+A página é responsiva, adaptando-se a diferentes tamanhos de tela (desktop, tablet, mobile).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Footer
+Com informações adicionais e links úteis para as redes sociais da Lions.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Página de lojas
+Com filtro de pesquisa em uma lista de lojas da concessionária, exibindo informações detalhadas sobre cada loja.
+
+### Tecnologias Utilizadas
+- React com TypeScript: Para construção da interface e organização dos componentes.
+
+- Styled Components: Para estilização da aplicação de forma responsiva e consistente.
+
+- React Router: Para navegação entre as diferentes páginas (Home, Lojas).
+
+- React Icons: Para uso de ícones visuais que enriquecem a interface.
+
+- Vite: Utilizado como ferramenta de build por ser leve e rápida.
+
+## Como foi desenvolver o projeto?
+Após fazer a instalação e configuração das ferramentas, resolvi usar o Atomic Design para dividir os componentes de interface e utiliza-los de maneira organizada. Descartei o Chakra UI e optei pelo Style Components para obter mais flexibiilidade no desenvolvimento de interfaces, tomei a decisão de criar um arquivo TypeScript para armazenar as informações sobre as lojas e evitar poluir o componente StoreLayot. Senti que poderia ter explorado mais.

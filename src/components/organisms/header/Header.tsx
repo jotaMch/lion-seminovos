@@ -24,7 +24,7 @@ export const Header: React.FC<BgHeaderComponentProps> = ( props ) => {
                         <Button 
                         backgroundColor="#F0BE0C"
                         color="#2A2A2A"
-                        width="100px"
+                        width="70px"
                         height="40px"
                         rounded="12px"
                         border="none"
@@ -34,7 +34,7 @@ export const Header: React.FC<BgHeaderComponentProps> = ( props ) => {
                     </Link>
                     <StyledSearch>
                         <Input 
-                        width="260px"
+                        width="200px"
                         height="40px"
                         border="none"
                         radius="12px 0 0 12px"
@@ -54,7 +54,7 @@ export const Header: React.FC<BgHeaderComponentProps> = ( props ) => {
                     </StyledSearch>
                 </div>
                 }
-                {!props.booleanNav && <Nav home='Casa' services='Serviços' category='Categorias'  />}
+                {!props.booleanNav && <Nav home='Casa' category='Categorias' services='Serviços' />}
             </ContainerHeader>
         </HeaderComponent>
     )

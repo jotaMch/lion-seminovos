@@ -10,19 +10,19 @@ export const Services: React.FC = (  ) => {
             <ItemsContainer>
                 <ItemsList>
                     <Items>
-                        <FaUmbrellaBeach size={60} color="#A60F14" />
+                        <FaUmbrellaBeach size={50} color="#A60F14" />
                         <p>Trabalhe de onde quiser</p>
                     </Items>
                     <Items>
-                        <FaMoneyBillTrendUp size={60} color="#A60F14" />
+                        <FaMoneyBillTrendUp size={50} color="#A60F14" />
                         <p>Lucro alto nas vendas</p>
                     </Items>
                     <Items>
-                        <TbPigMoney size={60} color="#A60F14" />
+                        <TbPigMoney size={50} color="#A60F14" />
                         <p>Ganhe uma renda extra</p>
                     </Items>
                     <Items>
-                        <BiBarChart size={60} color="#A60F14" />
+                        <BiBarChart size={50} color="#A60F14" />
                         <p>Diversas estratégias de vendas</p>
                     </Items>
                 </ItemsList>

@@ -45,6 +45,7 @@ export const ContainerHeader = styled.div`
         
         @media screen and (max-width: 768px) {
             gap: 6px;
+            width: 80%;
         }
     }
 `;
@@ -55,5 +56,8 @@ export const StyledSearch = styled.div`
     align-items: center;
     border: 1px solid #D1D1D1;
     border-radius: 12px;
+    @media screen and (max-width: 768px) {
+        width: 250px;
+    }
 `;
 

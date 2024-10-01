@@ -9,13 +9,13 @@ import { Container, MainStyle } from "./style"
 function Layout() {
     return (
         <MainStyle>
-        <Container>
-            <Header />
-            <Home />
-        </Container>
-            <Services />
-            <Category />
-            <Footer />
+            <Container>
+                <Header />
+                <Home />
+            </Container>
+                <Services />
+                <Category />
+                <Footer />
         </MainStyle>
     )
 }
