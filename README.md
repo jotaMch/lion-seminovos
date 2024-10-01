@@ -46,4 +46,4 @@ Com filtro de pesquisa em uma lista de lojas da concessionária, exibindo inform
 - Vite: Utilizado como ferramenta de build por ser leve e rápida.
 
 ## Como foi desenvolver o projeto?
-Após fazer a instalação e configuração das ferramentas, resolvi usar o Atomic Design para dividir os componentes de interface e utiliza-los de maneira organizada. Descartei o Chakra UI e optei pelo Style Components para obter mais flexibiilidade no desenvolvimento de interfaces, tomei a decisão de criar um arquivo TypeScript para armazenar as informações sobre as lojas e evitar poluir o componente StoreLayot. Senti que poderia ter explorado mais.
+AApós fazer a instalação e configuração das ferramentas, resolvi usar o Atomic Design para dividir os componentes de interface e utilizá-los de maneira organizada. Descartei o Chakra UI e optei pelo Styled Components para obter mais flexibilidade no desenvolvimento de interfaces. Tomei a decisão de criar um arquivo TypeScript para armazenar as informações sobre as lojas e evitar poluir o componente StoreLayout. Senti que poderia ter explorado mais.
