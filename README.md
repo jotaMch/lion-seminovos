@@ -2,7 +2,7 @@
 
 Passos para executar, clone o repositório:
 
-- git clone https://github.com/jotaMch/lion-seminovos.git -l 'nome-do-seu-repositório'
+- git clone https://github.com/jotaMch/lions-seminovos.git -l 'nome-do-seu-repositório'
 > Acesse o diretório do projeto:
 - cd 'nome-do-seu-repositório'
 
